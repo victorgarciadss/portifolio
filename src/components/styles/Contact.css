@@ -1,0 +1,137 @@
+h1.contact-title{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 2.5rem;
+}
+
+.contacts-content{
+    width: 850px;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.invitation{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.social-container{
+    padding: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: space-around;
+}
+
+.icon{
+    font-size: 8rem;
+}
+
+.link-social-network{
+    font-size: 1.5rem;
+    color: #eee;
+    text-decoration: none;
+    padding: 0.5rem;
+    border: 3px solid #fff;
+    border-radius: 0.5rem;
+    
+}
+
+footer{
+    height: 100px;
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph-copyright{
+    font-size: 1.5rem;
+}
+
+
+
+@media screen and (min-width: 700px){
+    .link-social-network:hover{
+        background-color: #eee;
+        color: black;
+    }
+}
+
+
+
+@media screen and (max-width: 980px){
+
+    .contacts-content{
+        width: 600px;
+    }
+
+    .invitation{
+        font-size: 1.3rem;
+    }
+
+    .social-container{
+        padding: 2rem;
+    }
+
+    .icon{
+        font-size: 6rem;
+    }
+
+    .link-social-network{
+        font-size: 1.3rem;
+        padding: 4px;
+        border: 2px solid #fff;
+    }
+
+    .paragraph-copyright{
+        font-size: 1.3rem;
+    }
+}
+
+
+
+@media screen and (max-width: 700px){
+
+    h1.contact-title{
+        font-size: 2rem;
+    }
+
+    .contacts-content{
+        width: 360px;
+    }
+
+    .invitation{
+        font-size: 1.1rem;
+    }
+
+    .social-container{
+        padding: 0.5rem;
+        margin-top: 1rem;
+    }
+
+    .icon{
+        font-size: 4rem;
+    }
+
+    .link-social-network{
+        font-size: 1rem;
+        padding: 2px;
+    }
+
+    footer{
+        height: 4rem;
+    }
+
+    .paragraph-copyright{
+        font-size: 1rem;
+    }
+    
+}

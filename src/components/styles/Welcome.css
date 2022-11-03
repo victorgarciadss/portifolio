@@ -1,0 +1,186 @@
+.initialInformation{
+    padding-top: 5rem;
+    display: flex;
+    width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reception{
+    width: 25rem;
+    margin-top: 2rem;
+}
+
+.pictureContainer{
+    width: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-presentation{
+    width: 22rem;
+    border-radius: 11rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.infoDev{
+    font-size: 2.5rem;
+    text-align: center;
+    position: relative;
+    margin-bottom: 1.5rem;
+    animation: changeSizeInfos 3s infinite ease-in;
+}
+
+.name{
+    font-weight: bold;
+    color: #0f50bf;
+}
+
+.job{
+    color: #3f8fd1;
+}
+
+.welcome{
+    position: relative;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.spaceButton{
+    text-align: center;
+}
+
+button.enter{
+    font-size: 1.8rem;
+    background-color: transparent;
+    border: 3px solid #2730a8;
+    border-radius: 1rem;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 2rem;
+}
+
+@keyframes changeSizeInfos{
+    from{
+        transform: translateY(0rem);
+    }
+    to{
+        transform: translateY(1.2rem);
+    }
+}
+
+@keyframes appear{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes effectButton{
+    from{
+        top: 0px;
+    }
+    to{
+        top: 1px;
+        box-shadow: none;
+    }
+}
+
+@media screen and (min-width: 650px){
+    
+    button.enter::before{
+        content: '';
+        position: absolute;
+        background-color: #2730a8;
+        transform: translate(-50%, -50%);
+        width: 0;
+        height: 100%;
+        top: 50%;
+        left: 50%;
+        z-index: -1;
+        transition: all 0.5s ease;
+        
+    }
+
+    button.enter:hover::before{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 850px){
+
+    .initialInformation{
+        padding-top: 8rem;
+        width: 40rem;
+    }
+
+    .reception{
+        width: 20rem;
+    }
+
+    .pictureContainer{
+        width: 20rem;
+    }
+
+    .img-presentation{
+        width: 17rem;
+    }
+
+    .infoDev{
+        font-size: 1.8rem;
+    }
+
+    .welcome{
+        font-size: 1.5rem;
+    }
+
+    button.enter{
+        font-size: 1.3rem;
+        padding: 4px;
+        
+    }
+}
+
+@media screen and (max-width: 650px){
+
+    .initialInformation{
+        padding-top: 4rem;
+        display: block;
+        width: 15rem;
+    }
+
+    .reception{
+        width: 15rem;
+        margin-top: 1rem;
+    }
+
+    .pictureContainer{
+        width: 15rem;
+    }
+
+    .img-presentation{
+        width: 15rem;
+    }
+
+    .infoDev{
+        font-size: 1.5rem;
+        animation: appear 3s forwards;
+    }
+
+    .welcome{
+        font-size: 1.2rem;
+    }
+
+    button.enter{
+        background-color: #2730a8;
+        animation: effectButton 2s infinite;
+        box-shadow: 0px 2px 0px #375fcc;
+    }
+}

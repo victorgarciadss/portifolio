@@ -1,0 +1,206 @@
+h1.tech-title{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 2.5rem;
+}
+
+.global-content{
+    margin: 2rem 2rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.title-graduate{
+    font-size: 2rem;
+}
+
+.container-formation{
+    margin-top: 2rem;
+}
+
+.formation-1{
+    display: flex;
+}
+
+.formation-2{
+    margin-top: 3rem;
+}
+
+.logo-ifrs{
+    width: 6rem;
+    margin-right: 2rem;
+}
+
+.title-formation1, .title-formation2{
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.time-college{
+    margin-bottom: 0.5rem;
+}
+
+.certification{
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+.certificates-container{
+    width: 40rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.data-certification{
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.image-certificate{
+    width: 24rem;
+    height: 15rem;
+    border-radius: 1rem;
+    border: 2px solid black;
+    margin: auto;
+}
+
+.name-certificate{
+    font-size: 1.4rem;
+    width: 22rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid rgb(10, 160, 230);
+    margin-bottom: 0.5rem;
+}
+
+.certificate-icon{
+    display: flex;
+    align-items: center;
+    margin-left: 0.2rem;
+}
+
+.instituition-certificate{
+    margin-bottom: 0.5rem;
+    margin-left: 3rem;
+}
+
+.link-certificate{
+    margin-left: 3rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: rgb(124, 168, 204);
+}
+
+.link-icon{
+    margin-right: 0.5rem;
+}
+
+.p-warning{
+    margin-left: 3rem;
+    font-size: 1.2rem;
+    color: #8888a5;
+}
+
+
+
+
+@media screen and (max-width: 980px){
+    .global-content{
+        margin: 1rem 1rem;
+    }
+
+    .formation-2{
+        margin-top: 1.5rem;
+    }
+
+    .logo-ifrs{
+        margin-right: 1rem;
+    }
+
+    .title-formation1, .title-formation2{
+        font-size: 1.4rem;
+    }
+
+    .time-college,
+    .name-instituition,
+    .high-school-status{
+        font-size: 1.2rem;
+    }
+
+    .certificates-container{
+        width: 34rem;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 700px){
+    h1.tech-title{
+        font-size: 2rem;
+    }
+
+    .global-content{
+        margin: 0rem 0rem;
+    }
+
+    .title-graduate{
+        margin-top: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .formation-1{
+        flex-direction: column;
+    }
+
+    .title-formation1, .title-formation2{
+        font-size: 1.3rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .time-college,
+    .name-instituition,
+    .high-school-status{
+        font-size: 1rem;
+    }
+
+    .certification{
+        font-size: 1.5rem;
+    }
+
+    .certificates-container{
+        width: 20rem;
+    }
+
+    .data-certification{
+        width: 18rem;
+        padding: 0.5rem;
+    }
+
+    .image-certificate{
+        width: 16rem;
+        height: 10rem;
+    }
+
+    .name-certificate{
+        font-size: 1rem;
+        width: 15rem;
+        border-bottom: 2px solid rgb(10, 160, 230);
+    }
+
+    .instituition-certificate,
+    .link-certificate,
+    .p-warning{
+        margin-left: 1rem;
+        font-size: 1rem;
+    }
+}
+

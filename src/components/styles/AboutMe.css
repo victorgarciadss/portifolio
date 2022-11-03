@@ -1,0 +1,82 @@
+h1.about-title{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 2.5rem;
+}
+
+.about{
+    width: 60rem;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.container-photo{
+    display: flex;
+    align-items: center;
+    width: 60rem;
+   
+}
+
+.image-aboutSection{
+    width: 18rem;
+    border-radius: 11rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.name{
+    color: #00aaee;
+}
+
+.paragraph-aboutMe{
+    padding: 0.5rem;
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 980px){
+    .about{
+        width: 40rem;
+    }
+
+    .container-photo{
+        width: 40rem;
+    }
+
+    .container-image{
+        width: 20rem;
+    }
+    
+    .image-aboutSection{
+        width: 15rem;
+    }
+
+    .container-recommendation{
+        width: 20rem;
+    }
+}
+
+@media screen and (max-width: 700px){
+
+    h1.about-title{
+        margin-top: 60px;
+        font-size: 2rem;
+    }
+
+    .about{
+        width: 22rem;
+    }
+
+    .container-photo{
+        width: 22rem;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .paragraph-aboutMe{
+        font-size: 1.2rem;
+    }
+}

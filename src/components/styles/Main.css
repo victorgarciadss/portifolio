@@ -1,0 +1,8 @@
+.containerOrganization{
+    display: flex;
+}
+
+.variable-content{
+    background-image: linear-gradient(to bottom, #0f0a47, black);
+    width: 100%;
+}

@@ -1,0 +1,150 @@
+h1.projects-title{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.main-container{
+    width: 60rem;
+    display: flex;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.left-projects{
+    width: 50%;
+    border-right: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.right-projects{
+    margin-top: 350px;
+}
+
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    
+}
+
+.variable-img{
+    width: 400px;
+    height: 240px;
+    border-radius: 10px 10px 0 0;
+}
+
+.container-info-project{
+    width: 400px;
+    background-color: rgb(30, 29, 29);
+    border-radius: 0px 0px 10px 10px;
+    text-align: justify;
+    margin-bottom: 15rem;
+}
+
+.info,
+.technologies{
+    padding: 10px;
+}
+
+.list-items{
+    list-style: none;
+    padding: 15px;
+}
+
+a.link-projects{
+    width: 80%;
+    margin: auto;
+    border-bottom: 3px solid #4f0fe4;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #eee;
+    display: flex;
+    margin-top: 0.5rem;
+    justify-content: center;
+
+}
+
+
+@media screen and (min-width: 700px){
+    a.link-projects:hover{
+        border-radius: 10px;
+        background-color: #4f0fe4;
+        transition: 0.5s;
+    }
+}
+
+
+
+@media screen and (max-width: 980px){
+    
+    .main-container{
+        width: 42rem;
+    }
+
+    .projects{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .variable-img{
+        width: 320px;
+        height: 192px;
+    }
+
+    .container-info-project{
+        width: 320px;
+    }
+
+    .info,
+    .technologies{
+        padding: 8px;
+    }
+
+    .list-items{
+        padding: 10px;
+    }
+
+    a.link-projects{
+        font-size: 1.2rem;
+    }
+}
+
+
+@media screen and (max-width: 700px){
+
+    h1.projects-title{
+        font-size: 2rem;
+    }
+
+    .main-container{
+        width: 22rem;
+        flex-direction: column;
+    }
+
+    .left-projects{
+        border: none;
+        width: 100%;
+        align-items: center;
+    }
+
+    .right-projects{
+        margin-top: 0;
+    }
+
+    .projects{
+        align-items: center;
+    }
+
+    .container-info-project{
+        margin-bottom: 100px;
+    }
+
+    a.link-projects{
+        border-bottom: 2px solid #4f0fe4;
+    }
+}
