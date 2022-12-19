@@ -13,10 +13,10 @@ const Calculator = () => {
         
             <div className='container-info-project' data-aos="fade-down">
                 <a
-                href="https://victorgarciadss.github.io/calculadora/"
-                target={"_blank"}
-                rel="noreferrer"
-                className="link-projects"
+                    href="https://victorgarciadss.github.io/calculadora/"
+                    target={"_blank"}
+                    rel="noreferrer"
+                    className="link-projects"
                 >
                     Calculadora
                 </a>

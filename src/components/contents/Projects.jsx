@@ -7,6 +7,7 @@ import Jokenpo from '../projects/Jokenpo';
 import Calculator from '../projects/Calculator';
 import ImcCalculator from '../projects/ImcCalculator';
 import RocketPay from '../projects/RocketPay';
+import AluraTube from "../projects/AluraTube";
 
 const Projects = () => {
 
@@ -25,6 +26,7 @@ const Projects = () => {
                     <div className='projects'>
                         <Jokenpo />
                         <ImcCalculator />
+                        <AluraTube />
                     </div>
                 </div>
 

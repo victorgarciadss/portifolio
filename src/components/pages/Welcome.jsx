@@ -24,7 +24,7 @@ const Welcome = () => {
                         <span className='job'> Desenvolvedor Web</span>
                     </p>
 
-                    <p className='welcome'>Olá, seja muito bem vindo <br /> ao meu portifólio</p>
+                    <p className='welcome'>Olá, seja muito bem vindo <br /> ao meu portfólio</p>
 
                     <div className='spaceButton'>
                         <Link to={"/home"}>
