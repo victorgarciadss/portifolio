@@ -3,8 +3,8 @@ import { useEffect } from 'react';
 import Tilt from 'react-parallax-tilt'
 import Aos from 'aos';
 
-import { DiHtml5, DiCss3, DiJsBadge, DiReact, DiJava, DiGit } from 'react-icons/di';
-import { SiC, SiStyledcomponents } from 'react-icons/si';
+import { DiHtml5, DiCss3, DiJsBadge, DiReact, DiJava, DiGit, DiNodejsSmall } from 'react-icons/di';
+import { SiC, SiStyledcomponents, SiMysql, SiTypescript, SiPostgresql, SiSpringboot } from 'react-icons/si';
 
 import '../styles/Skills.css';
 
@@ -50,6 +50,31 @@ const Skills = () => {
             id: 8,
             name: 'Styled Components',
             skill: <SiStyledcomponents />,
+        },
+        {
+            id: 9,
+            name: 'MySQL',
+            skill: <SiMysql />
+        },
+        {
+            id: 10,
+            name: 'NodeJs',
+            skill: <DiNodejsSmall />
+        },
+        {
+            id: 11,
+            name: 'TypeScript',
+            skill: <SiTypescript />
+        },
+        {
+            id: 12,
+            name: 'PostgreSQL',
+            skill: <SiPostgresql />
+        },
+        {
+            id: 13,
+            name: 'Spring Boot',
+            skill: <SiSpringboot />
         }
     ]
 

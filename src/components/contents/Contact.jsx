@@ -49,7 +49,7 @@ const Contact = () => {
             </section>
 
             <footer>
-                <p className='paragraph-copyright'>&copy; Victor Garcia - Desenvolvedor Front-End</p>
+                <p className='paragraph-copyright'>&copy; Victor Garcia - Desenvolvedor Full-Stack</p>
             </footer>
             
         </div>

@@ -8,6 +8,7 @@ import Calculator from '../projects/Calculator';
 import ImcCalculator from '../projects/ImcCalculator';
 import RocketPay from '../projects/RocketPay';
 import AluraTube from "../projects/AluraTube";
+import TwitterUi from "../projects/TwitterUi";
 
 const Projects = () => {
 
@@ -34,6 +35,7 @@ const Projects = () => {
                     <div className='projects'>
                         <Calculator />
                         <RocketPay />
+                        <TwitterUi />
                     </div>
                 </div>
                 
