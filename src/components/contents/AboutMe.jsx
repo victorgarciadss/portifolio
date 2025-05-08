@@ -4,6 +4,22 @@ import professionalPicture from '../../images/foto-profissional.jpg';
 
 const AboutMe = () => {
 
+    function getMyAge(bornDate) {
+        const today = new Date();
+        const born = new Date(bornDate);
+
+        let age = today.getFullYear() - born.getFullYear();
+
+        const month = today.getMonth() - born.getMonth();
+        const day = today.getDate() - born.getDate();
+
+        if(month < 0 || (month === 0 && day < 0)) {
+            age = age - 1;
+        }
+
+        return age;
+    }
+
     return(
         <div id='about-me'>
         
@@ -16,7 +32,7 @@ const AboutMe = () => {
                 </div>
             
                 <p className='paragraph-aboutMe'>
-                    &nbsp; Olá, meu nome é <span className='name'>Victor Garcia</span>, tenho 20 anos,
+                    &nbsp; Olá, meu nome é <span className='name'>Victor Garcia</span>, tenho {getMyAge(process.env.REACT_APP_BORN_DATE)} anos,
                     sou desenvolvedor de Software apaixonado por tecnologia. Tenho o objetivo de trabalhar com 
                     desenvolvimento Web onde tenho construído meus próprios projetos utilizando a linguagem de
                     programação JavaScript/TypeScript junto da biblioteca React, estou aprofundando meu 
