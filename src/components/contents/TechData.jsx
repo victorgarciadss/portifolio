@@ -69,7 +69,7 @@ const TechData = () => {
                             </h2>
 
                             <p className="time-college">
-                                Início: Fevereiro 2022 / Conclusão Prevista: Dezembro 2024
+                                Início: Fevereiro 2022 / Conclusão Prevista: Dezembro 2025
                             </p>
                             
                             <p className='name-instituition'>Instituição: IFRS</p>
