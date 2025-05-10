@@ -1,9 +1,9 @@
 import { useEffect } from 'react';
 
-import certificateHtmlCss from '../../images/certificado-Html-css.png';
-import certificateJs from '../../images/certificado-js.png';
-import certificateReactJs from '../../images/certificado-reactjs.png';
-import logoIfrs from '../../images/logo-ifrs.png';
+import certificateHtmlCss from '../images/certificado-Html-css.png';
+import certificateJs from '../images/certificado-js.png';
+import certificateReactJs from '../images/certificado-reactjs.png';
+import logoIfrs from '../images/logo-ifrs.png';
 
 import { FaExternalLinkAlt } from 'react-icons/fa';
 import { DiJsBadge, DiReact, DiHtml5 } from 'react-icons/di';

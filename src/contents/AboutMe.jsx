@@ -1,6 +1,6 @@
 import '../styles/AboutMe.css';
 
-import professionalPicture from '../../images/foto-profissional.jpg';
+import professionalPicture from '../images/foto-profissional.jpg';
 
 const AboutMe = () => {
 

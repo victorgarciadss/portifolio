@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-import professionalPicture from '../../images/foto-profissional.jpg';
+import professionalPicture from '../images/foto-profissional.jpg';
 
 import '../styles/Welcome.css';
 

@@ -8,7 +8,7 @@ import {FaBars} from 'react-icons/fa';
 import {BiFile} from 'react-icons/bi';
 import {BsFillGearFill, BsCodeSlash} from 'react-icons/bs';
 
-import { Button, Menu } from '../styles/styles';
+import { Button, Menu } from '../../styles/styles';
 
 
 

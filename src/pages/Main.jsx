@@ -1,4 +1,4 @@
-import NavBar from "../layout/NavBar";
+import NavBar from "../components/layout/NavBar";
 
 import AboutMe from "../contents/AboutMe";
 import TechData from "../contents/TechData";
