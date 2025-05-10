@@ -21,7 +21,7 @@ const Welcome = () => {
                 <div className='reception'>
                     <p className='infoDev'>
                         <span className='name'>Victor Garcia</span> <br />
-                        <span className='job'> Desenvolvedor Web</span>
+                        <span className='job'> Desenvolvedor FullStack</span>
                     </p>
 
                     <p className='welcome'>Olá, seja muito bem vindo <br /> ao meu portfólio</p>

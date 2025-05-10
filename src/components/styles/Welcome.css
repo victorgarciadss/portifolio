@@ -7,7 +7,7 @@
 }
 
 .reception{
-    width: 25rem;
+    width: 30rem;
     margin-top: 2rem;
 }
 
@@ -40,6 +40,7 @@
 
 .job{
     color: #3f8fd1;
+    font-size: 2rem;
 }
 
 .welcome{
@@ -137,6 +138,10 @@ button.enter{
         font-size: 1.8rem;
     }
 
+    .job {
+        font-size: 1.5rem;
+    }
+
     .welcome{
         font-size: 1.5rem;
     }
@@ -172,6 +177,10 @@ button.enter{
     .infoDev{
         font-size: 1.5rem;
         animation: appear 3s forwards;
+    }
+
+    .job {
+        font-size: 1.25rem;
     }
 
     .welcome{
