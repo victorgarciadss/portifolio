@@ -7,6 +7,7 @@ import imageJokenpo from '../images/imagem_pedra-papel-tesoura.png';
 import imageImcCalc from '../images/imagem-calculadora-imc.png';
 import imageCalculator from '../images/imagem-calculadora.png';
 import imageTwitterUi from '../images/imagem-twitter-ui.png'
+import imageEcoSOS from '../images/imagem-EcoSOS.png';
 import { Project } from "../components/Project";
 
 const Projects = () => {
@@ -71,6 +72,32 @@ const Projects = () => {
                                 <li>HTML</li>
                                 <li>CSS</li>
                                 <li>JavaScript</li>
+                            </ul>
+                        </Project>
+
+                        <Project image={imageEcoSOS} altDescription={"Imagem do website EcoSOS"}>
+                            <a
+                                href="https://eco-sos-gules.vercel.app/"
+                                target={"_blank"}
+                                rel="noreferrer"
+                                className="link-projects"
+                            >
+                                EcoSOS
+                            </a>
+
+                            <p className="info">
+                                Esse projeto foi contruído com base na ODS 13, Ação contra mudança global do clima.
+                                Ele foi desenvolvido visando auxiliar no combate a incidentes ambientais,
+                                foram utilizados dados mockados para simular o servidor
+                            </p>
+
+                            <h3 className="technologies">Tecnologias utilizadas</h3>
+                            <ul className="list-items">
+                                <li>TypeScript</li>
+                                <li>React</li>
+                                <li>CSS</li>
+                                <li>Vite</li>
+                                <li>Json server</li>
                             </ul>
                         </Project>
                     </div>
