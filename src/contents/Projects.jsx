@@ -8,6 +8,7 @@ import imageImcCalc from '../images/imagem-calculadora-imc.png';
 import imageCalculator from '../images/imagem-calculadora.png';
 import imageTwitterUi from '../images/imagem-twitter-ui.png'
 import imageEcoSOS from '../images/imagem-EcoSOS.png';
+import imageFinalFantasy from '../images/imagem-ff7-rebirth.png';
 import { Project } from "../components/Project";
 
 const Projects = () => {
@@ -152,6 +153,30 @@ const Projects = () => {
                                 <li>React</li>
                                 <li>Vite</li>
                                 <li>Styled-Components</li>
+                            </ul>
+                        </Project>
+
+                        <Project image={imageFinalFantasy} altDescription={"Imagem de um site sobre Final Fantasy"}>
+                            <a 
+                                href="https://task01-angular-orpin.vercel.app/"
+                                target={"_blank"}
+                                rel="noreferrer"
+                                className="link-projects"
+                            >
+                                Página Final Fantasy
+                            </a>
+
+                            <p className="info">
+                                Nesse projeto eu desenvolvi uma página com o tema do jogo Final Fantasy, onde
+                                conto um pouco da história do game, permito análise do jogo anterior e apresento os personagens
+                            </p>
+
+                            <h3 className="technologies">Tecnologias Utilizadas</h3>
+
+                            <ul className="list-items">
+                                <li>Angular</li>
+                                <li>TypeScript</li>
+                                <li>Saas</li>
                             </ul>
                         </Project>
                         
