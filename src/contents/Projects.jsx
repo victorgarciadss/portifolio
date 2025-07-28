@@ -9,6 +9,7 @@ import imageCalculator from '../images/imagem-calculadora.png';
 import imageTwitterUi from '../images/imagem-twitter-ui.png'
 import imageEcoSOS from '../images/imagem-EcoSOS.png';
 import imageFinalFantasy from '../images/imagem-ff7-rebirth.png';
+import imageAccessMovies from '../images/imagem-accessMovies.png';
 import { Project } from "../components/Project";
 
 const Projects = () => {
@@ -99,6 +100,31 @@ const Projects = () => {
                                 <li>CSS</li>
                                 <li>Vite</li>
                                 <li>Json server</li>
+                            </ul>
+                        </Project>
+
+                        <Project image={imageAccessMovies} altDescription={"Imagem do projeto Access Movies"}>
+                            <a 
+                                href="https://task02-redux.vercel.app/"
+                                target={"_blank"}
+                                rel="noreferrer"
+                                className="link-projects"
+                            >
+                                Access Movies
+                            </a>
+
+                            <p className="info">
+                                O projeto foi desenvolvido visando consumo de uma API de filmes externa, essa aplicação
+                                oferece opções como adicionar um filme ao carrinho e finalizar a compra
+                            </p>
+                            
+                            <h3 className="technologies">Tecnologias utilizadas</h3>
+
+                            <ul className="list-items">
+                                <li>TypeScript</li>
+                                <li>React</li>
+                                <li>Redux</li>
+                                <li>CSS</li>
                             </ul>
                         </Project>
                     </div>
